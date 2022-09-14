@@ -1,9 +1,6 @@
-let nom = "Reginald";
-let formation = "REAN";
+let languages = ["C", "C++", "C#"];
 
-function info()
+for (let [index, language] of languages.entries()) 
 {
-    return "Formation chez PLB";
+    console.log(`indice = ${index} : valeur = ${language}` );
 }
-let phrase = `Je suis ${nom}, la formation est : ${formation}, la formation se déroule chez ${info()}`;
-console.log(phrase);
